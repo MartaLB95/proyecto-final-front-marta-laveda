@@ -4,12 +4,20 @@ import subjectImage from "../img/subjects.jpg";
 import methodologyImage from "../img/methodology.jpg";
 import examsImage from "../img/exams.jpg";
 import Hero from "../components/Hero";
+import Banner from "../components/Banner";
 
 export default function Home() {
   return (
     <div>
       <div>
         <Hero />
+      </div>
+      <div>
+        <Banner
+          text="Next Civil Service Exam: Vampires Ambassador - March 15, 2026"
+          buttonText="Exams"
+          buttonLink="/CivilServiceExams"
+        />
       </div>
       <div className="card-group m-4">
         <SectionCard
