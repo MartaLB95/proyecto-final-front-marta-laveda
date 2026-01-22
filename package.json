@@ -13,8 +13,10 @@
     "bootstrap": "^5.3.8",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
+    "react-router-dom": "^7.12.0",
     "react-scripts": "5.0.1",
     "react-social-icons": "^6.25.0",
+    "router-dom": "^3.0.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
