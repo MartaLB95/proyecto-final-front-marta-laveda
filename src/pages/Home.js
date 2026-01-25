@@ -3,6 +3,7 @@ import contactImage from "../img/contact.jpg";
 import subjectImage from "../img/subjects.jpg";
 import methodologyImage from "../img/methodology.jpg";
 import examsImage from "../img/exams.jpg";
+import internationalImage from "../img/international-mobility.jpg";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 
@@ -40,6 +41,13 @@ export default function Home() {
           title="Civil Service Exams"
           text="Preparing for civil service exams can be challenging, but with Screamford Academy, you're in good hands. Our expert instructors and comprehensive study materials will guide you every step of the way."
           link="/civilserviceexams"
+        />
+            <SectionCard
+          imageSource={internationalImage}
+          imageDescription="Map by Jakob Braun"
+          title="International Mobility"
+          text="Screamford Academy offers international mobility programs that allow students to study abroad and gain valuable experience in different countries."
+          link="/internationalmobility"
         />
         <SectionCard
           imageSource={contactImage}

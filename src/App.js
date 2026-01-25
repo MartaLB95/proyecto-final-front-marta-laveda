@@ -5,7 +5,9 @@ import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 import Home from "./pages/Home.js";
 import Subjects from "./pages/Subjects.js";
-
+import Methodology from "./pages/Methodology.js";
+import CivilServiceExams from "./pages/CivilServiceExams.js";
+import InternationalMobility from "./pages/InternationalMobility.js";
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/subjects" element={<Subjects />} />
+        <Route path="/methodology" element={<Methodology />} />
+        <Route path="/civilserviceexams" element={<CivilServiceExams />} />
+        <Route path="/internationalmobility" element={<InternationalMobility />} />
       </Routes>
       <Footer />
     </div>

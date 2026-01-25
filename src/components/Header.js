@@ -37,6 +37,11 @@ export default function Header() {
               Subjects
             </a>
           </li>
+           <li className="nav-item">
+            <a className="nav-link" href="./InternationalMobility">
+              International Mobility
+            </a>
+          </li>
           <li className="nav-item">
             <a className="nav-link" href="./LogIn">
               Log In
