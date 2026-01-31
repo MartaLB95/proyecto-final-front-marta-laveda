@@ -17,7 +17,7 @@ export default function InternationalMobility() {
                 imageSource={EdimburghImage}
                 imageDescription="Edimburgh picture by Alex Azabache"
                 title="Horror University of Edimburgh"
-                text="Located in Scotland, this university will allow you to gain a deeper understanding the history of ghosts and spirits, as well as practical experience in haunting techniques."
+                text="Located in Scotland, this university will allow you to gain a deeper understanding of the history of ghosts and spirits, as well as practical experience in haunting techniques."
                 link="/contact"
               />
               <SectionCard

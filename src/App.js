@@ -11,6 +11,7 @@ import InternationalMobility from "./pages/InternationalMobility.js";
 import CookiesPolicy from "./pages/CookiesPolicy.js";
 import PrivacyPolicy from "./pages/PrivacyPolicy.js";
 import TermsAndConditions from "./pages/TermsAndConditions.js";
+import Contact from "./pages/Contact.js";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/cookiespolicy" element={<CookiesPolicy />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/termsandconditions" element={<TermsAndConditions />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>

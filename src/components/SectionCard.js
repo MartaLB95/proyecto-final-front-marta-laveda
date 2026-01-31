@@ -1,3 +1,4 @@
+import Button from './Button'
 export default function SectionCard({
   title,
   text,
@@ -19,9 +20,7 @@ export default function SectionCard({
             <div className="card-body">
               <h5 className="card-title">{title}</h5>
               <p className="card-text">{text}</p>
-              <a href={link} className="btn btn-primary">
-                Continue reading...
-              </a>
+              <Button text="Continue reading" link={link} />
               </div>
             </div>
   );
