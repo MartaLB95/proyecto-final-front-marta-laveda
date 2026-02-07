@@ -42,6 +42,11 @@ export default function Header() {
               International Mobility
             </a>
           </li>
+            <li className="nav-item">
+            <a className="nav-link" href="./Contact">
+              Contact Us
+            </a>
+          </li>
           <li className="nav-item">
             <a className="nav-link" href="./LogIn">
               Log In

@@ -7,13 +7,13 @@ export default function Hero(){
         <div id="carouselHome" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={academyPic} class="d-block w-100" alt="One of the academy buildings"/>
+      <img src={academyPic} class="d-block mw-100" alt="One of the academy buildings"/>
     </div>
     <div class="carousel-item">
-      <img src={forestPic} class="d-block w-100" alt="The forest surrounding our campus in Transilvania"/>
+      <img src={forestPic} class="d-block mw-100" alt="The forest surrounding our campus in Transilvania"/>
     </div>
     <div class="carousel-item">
-      <img src={coatOfArmsPic} class="d-block w-100" alt="The coat of arms of Screamford Academy"/>
+      <img src={coatOfArmsPic} class="d-block mw-100" alt="The coat of arms of Screamford Academy"/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">

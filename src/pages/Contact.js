@@ -1,6 +1,6 @@
 import AcademyROImage from '../img/academy.jpg';
 import AcademyUKImage from '../img/british-campus.jpg';
-import Button from '../components/Button';
+import ContactForm from '../components/ContactForm';
 
 export default function Contact() {
     return(
@@ -28,21 +28,7 @@ export default function Contact() {
     </div>
     <div>
         <h2>Contact Form</h2>
-        <form>
-            <div className="mb-3">
-                <label htmlFor="name" className="form-label">Name</label>   
-                <input type="text" className="form-control" id="name" required />
-            </div>  
-            <div className="mb-3">
-                <label htmlFor="email" className="form-label">Email address</label>
-                <input type="email" className="form-control" id="email" required />
-            </div>
-            <div className="mb-3">
-                <label htmlFor="message" className="form-label">Message</label>
-                <textarea className="form-control" id="message" rows="4" required></textarea>
-            </div>
-            <Button text="Submit" link="#" />
-        </form>
+        <ContactForm />
     </div>
 </div>
 )}
