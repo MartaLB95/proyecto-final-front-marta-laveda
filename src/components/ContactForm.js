@@ -1,9 +1,11 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Button from "./Button";
+import { useState } from "react";
 
 export default function ContactForm() {
   const form = useRef();
+  const [status, setStatus] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,9 +18,11 @@ export default function ContactForm() {
       .then(
         () => {
           console.log("SUCCESS!");
+          setStatus("Message sent successfully. Our dark team will get back to you as soon as possible.");
         },
         (error) => {
           console.log("FAILED...", error.text);
+          setStatus("Error sending message. You need to scream louder. Please try again.");
         },
       );
   };
@@ -51,6 +55,7 @@ export default function ContactForm() {
       <button type="submit" className="btn btn-dark">
         Submit
       </button>
+      {status && <p>{status}</p>}
     </form>
   );
 }

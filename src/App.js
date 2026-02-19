@@ -12,6 +12,8 @@ import CookiesPolicy from "./pages/CookiesPolicy.js";
 import PrivacyPolicy from "./pages/PrivacyPolicy.js";
 import TermsAndConditions from "./pages/TermsAndConditions.js";
 import Contact from "./pages/Contact.js";
+import LogIn from "./pages/LogIn.js";
+import SignUp from "./pages/SignUp.js";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/termsandconditions" element={<TermsAndConditions />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<LogIn />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
       <Footer />
     </div>
