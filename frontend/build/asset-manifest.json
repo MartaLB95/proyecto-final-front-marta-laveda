@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/MartaLB95/proyecto-final-front-marta-laveda/static/css/main.2c28cca6.css",
+    "main.js": "/MartaLB95/proyecto-final-front-marta-laveda/static/js/main.88c61879.js",
+    "static/js/453.78d35a48.chunk.js": "/MartaLB95/proyecto-final-front-marta-laveda/static/js/453.78d35a48.chunk.js",
+    "static/media/academy.jpg": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/academy.9254099c8daaf8890cb3.jpg",
+    "static/media/lapland.jpg": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/lapland.1fba6fc6ca8db92815f8.jpg",
+    "static/media/british-campus.jpg": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/british-campus.2189ae02d5766f6bcb6c.jpg",
+    "static/media/edimburgh.jpg": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/edimburgh.0c56a7207c4b5a743a9b.jpg",
+    "static/media/parisian-night.jpg": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/parisian-night.67d65c12d13bc86fb805.jpg",
+    "static/media/methodology.jpg": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/methodology.56242f8c95b4c62e4f6f.jpg",
+    "static/media/international-mobility.jpg": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/international-mobility.f72991b910e03d257d19.jpg",
+    "static/media/forest.jpg": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/forest.d3e7ebf3f3c2bfe5cf2b.jpg",
+    "static/media/roman-building.jpg": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/roman-building.f5c29543daedb3dc41d0.jpg",
+    "static/media/salem-witches.jpg": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/salem-witches.bb70ebbafeee5aad76b5.jpg",
+    "static/media/contact.jpg": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/contact.b1054493780fd49c28ff.jpg",
+    "static/media/subjects.jpg": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/subjects.6e1662fc6e2e37e439a4.jpg",
+    "static/media/exams.jpg": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/exams.421acb4788ee6915370a.jpg",
+    "static/media/screamford-coat-of-arms.png": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/screamford-coat-of-arms.adba8af8ef8349d170bd.png",
+    "static/media/screamford-logo.png": "/MartaLB95/proyecto-final-front-marta-laveda/static/media/screamford-logo.c532c4f9f6f2b2253410.png",
+    "index.html": "/MartaLB95/proyecto-final-front-marta-laveda/index.html",
+    "main.2c28cca6.css.map": "/MartaLB95/proyecto-final-front-marta-laveda/static/css/main.2c28cca6.css.map",
+    "main.88c61879.js.map": "/MartaLB95/proyecto-final-front-marta-laveda/static/js/main.88c61879.js.map",
+    "453.78d35a48.chunk.js.map": "/MartaLB95/proyecto-final-front-marta-laveda/static/js/453.78d35a48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c28cca6.css",
+    "static/js/main.88c61879.js"
+  ]
+}

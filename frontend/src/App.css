@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+html, body, #root{
+  background-color: #c7c7c7;
+}
+
+.banner{
+  background-color: #3e0152;
+  color: white;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding: 20px;
+  height:80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1{
+  padding-bottom: 30px;
+}
+
+.navbar-user {
+  color: white;
+  font-weight: bold;
+}
+
+.fullscreen-image {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: calc(100vh - 90px); /* Restamos la altura del header con espacios */
+  object-fit: cover; /* Cubre el área manteniendo la proporción */
+}
+
+/*Schedule table styles*/
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.schedule-table th {
+  background-color: #2c2c2c;
+  padding: 12px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.schedule-table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.schedule-table tr:nth-child(even) {
+  background-color: #252525;
+}
+
+.schedule-table tr:hover {
+  background-color: #333;
+  transition: 0.2s ease;
+}
+
+.schedule-table td:first-child {
+  font-weight: bold;
+  color: rgb(193, 3, 193);
+}
+
+/*Subject group style*/
+.subjects-columns {
+  column-count: 3;
+  column-gap: 3rem;
+}
+
+.subject-group {
+  break-inside: avoid;
+  margin-bottom: 2rem;
+}
+
+/*Card styles*/
+.card {
+  background-color: #1a1a1a !important;
+  color: #f5f5f5 !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card img {
+  width: 100%;       /* the whole card width */
+  height: 300px;     /* same height for all of them */
+  object-fit: cover; /* the image is scaled to cover the area without distortion */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* Responsive: the image height is lower for the phone */
+@media (max-width: 768px) {
+  .card img {
+    height: 220px;
+  }
+}
+
