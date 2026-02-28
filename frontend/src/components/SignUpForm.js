@@ -94,7 +94,7 @@ export default function SignUpForm() {
           />
         </div>
       </div>
-      <button type="submit" className="btn btn-dark">
+      <button type="submit" className="btn btn-dark" id="submit-signup-button">
         Submit
       </button>
       {status && <p>{status}</p>}

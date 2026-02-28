@@ -30,6 +30,7 @@ export default function Header() {
   return (
     <nav
       className="navbar navbar-expand-lg sticky-top bg-dark border-bottom border-body"
+      id="mainNav"
       data-bs-theme="dark"
       style={{
         display: "flex",

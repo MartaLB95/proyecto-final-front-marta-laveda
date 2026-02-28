@@ -59,7 +59,7 @@ export default function LogInForm() {
               required
             />
           </div>
-          <button type="submit" class="btn btn-dark">
+          <button type="submit" class="btn btn-dark" id="submit-login-button">
             Submit
           </button>
           {status && <p>{status}</p>}

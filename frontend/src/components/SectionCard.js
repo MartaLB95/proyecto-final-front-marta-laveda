@@ -10,7 +10,7 @@ export default function SectionCard({
 }) {
   return (
       <div  className={`card mb-3 ${horizontal ? "flex-row" : ""}`}
-      style={{ width: horizontal ? "100%" : "18rem" }}>
+      style={{ width: horizontal ? "100%" : "18rem" }} id="sectionCard">
        {imageSource && !horizontal && (
             <img
               src={imageSource}

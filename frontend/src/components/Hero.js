@@ -8,12 +8,17 @@ export default function Hero(){
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src={academyPic} className="fullscreen-image"alt="One of the academy buildings"/>
+     <div id="overlay-content">
+      <h2>Screamford Academy</h2>
+      <img src={coatOfArmsPic} alt="Coat of arms" id="coat-overlay" />
+    </div>
     </div>
     <div class="carousel-item">
       <img src={forestPic} className="fullscreen-image" alt="The forest surrounding our campus in Transilvania"/>
+      <div id="overlay-content-forest">
+      <h2>Screamford Academy</h2>
+      <img src={coatOfArmsPic} alt="Coat of arms" id="coat-overlay-forest" />
     </div>
-    <div class="carousel-item">
-      <img src={coatOfArmsPic} className="fullscreen-image" alt="The coat of arms of Screamford Academy"/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
