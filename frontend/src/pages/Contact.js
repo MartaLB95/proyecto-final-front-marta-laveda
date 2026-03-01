@@ -28,7 +28,7 @@ export default function Contact() {
     <div className="mt-4">
         <h2>Contact Information</h2>
         <p>Email: 
-            <a href="mailto:screamfordacademy@gmail.com"> screamfordacademy@gmail.com</a>
+            <a href="mailto:screamfordacademy@gmail.com" id="email-link"> screamfordacademy@gmail.com</a>
         </p>
         <p>Phone: +44 20 7946 0958</p>
     </div>

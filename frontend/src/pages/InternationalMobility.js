@@ -38,7 +38,7 @@ export default function InternationalMobility() {
                 imageSource={LaplandImage}
                 imageDescription="Lapland sky picture by Luna Pisani"
                 title="Dark Arts Academy of Lapland"
-                text="Why Lapland? Perfect destinations for vampires running away from the sun! But more importantly, get to know the team that, every year, is able to stop Santa from delivering presents to all the well-behaved children."
+                text="Why Lapland? Perfect destination for vampires running away from the sun! But more importantly, get to know the team that, every year, is able to stop Santa from delivering presents to all the well-behaved children."
                 link="/contact"
               />
               <SectionCard

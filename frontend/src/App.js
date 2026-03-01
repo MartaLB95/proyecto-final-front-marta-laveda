@@ -18,8 +18,9 @@ import SignUp from "./pages/SignUp.js";
 export default function App() {
   return (
     <BrowserRouter>
-    <div>
+    <div className="app-container">
       <Header />
+      <main className="main-content">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/subjects" element={<Subjects />} />
@@ -34,6 +35,7 @@ export default function App() {
         <Route path="/signup" element={<SignUp />} />
       </Routes>
       <Footer />
+      </main>
     </div>
     </BrowserRouter>
   );

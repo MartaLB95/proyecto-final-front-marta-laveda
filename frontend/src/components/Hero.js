@@ -9,15 +9,15 @@ export default function Hero(){
     <div class="carousel-item active">
       <img src={academyPic} className="fullscreen-image"alt="One of the academy buildings"/>
      <div id="overlay-content">
-      <h2>Screamford Academy</h2>
       <img src={coatOfArmsPic} alt="Coat of arms" id="coat-overlay" />
+      <h2>Screamford Academy</h2>
     </div>
     </div>
     <div class="carousel-item">
       <img src={forestPic} className="fullscreen-image" alt="The forest surrounding our campus in Transilvania"/>
       <div id="overlay-content-forest">
-      <h2>Screamford Academy</h2>
       <img src={coatOfArmsPic} alt="Coat of arms" id="coat-overlay-forest" />
+       <h2>Screamford Academy</h2>
     </div>
     </div>
   </div>
