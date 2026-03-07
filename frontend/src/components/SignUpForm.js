@@ -81,8 +81,8 @@ export default function SignUpForm() {
         <div id="passwordHelp" className="form-text">
           Your password is safe with us.
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">
+        <div className="mb-3">
+          <label for="exampleInputPassword1" className="form-label">
             Repeat Password
           </label>
           <input

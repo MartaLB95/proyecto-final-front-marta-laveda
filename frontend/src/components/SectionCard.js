@@ -6,10 +6,12 @@ export default function SectionCard({
   imageSource,
   imageDescription,
   horizontal = false,
-  hideButton=false
+  hideButton=false,
+  buttonText,
+  className=""
 }) {
   return (
-      <div  className={`card mb-3 ${horizontal ? "flex-row" : ""}`}
+      <div  className={`card mb-3 ${horizontal ? "flex-row" : ""} ${className}`}
       style={{ width: horizontal ? "100%" : "18rem" }} id="sectionCard">
        {imageSource && !horizontal && (
             <img
@@ -18,10 +20,10 @@ export default function SectionCard({
               alt={imageDescription}
             />
   )}
-            <div className="card-body">
+            <div className="card-body d-flex flex-column">
               <h5 className="card-title">{title}</h5>
               <p className="card-text">{text}</p>
-              {!hideButton && <Button text="Continue reading" link={link} />}
+              {!hideButton && <div className="mt-auto"><Button buttonText={buttonText} link={link} /></div>}
               </div>
             </div>
   );

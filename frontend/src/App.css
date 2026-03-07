@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -15,7 +16,7 @@
   min-height: 100vh; /* altura completa de la ventana */
 }
 
-/* Contenido principal */
+/* Main content */
 .main-content {
   flex: 1; /* takes all the space available */
 }
@@ -25,19 +26,29 @@ html, body, #root{
   color: #d2d1d1;
 }
 
-.banner{
-  background-color: #3e0152;
-  color: rgb(198, 198, 198);
-  margin-top:10px;
-  margin-bottom:10px;
-  padding: 20px;
-  height:80px;
+.welcome-span {
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.5px;
+}
+
+.banner {
+  background-color: #a500dc;
+  color: #ffffff;
+  font-family: 'Cinzel', serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: large;
-  font-family: garamond, serif;
-  width:100%;
+  width: 100%;
+}
+
+.banner-text {
+  margin: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -90,8 +101,8 @@ h2{
   top: 0;
   left: 0;
   width: 100vw;
-  height: calc(100vh - 90px); /* Restamos la altura del header con espacios */
-  object-fit: cover; /* Cubre el área manteniendo la proporción */
+  height: calc(100vh - 90px); /* Minus header height and spaces */
+  object-fit: cover; 
 }
 
 #overlay-content, #overlay-content-forest {
@@ -110,6 +121,15 @@ h2{
   min-width: 140px;
 }
 
+/*Span in bold in the Methodology page*/
+ .bold-quote {
+  font-weight: bold;
+}
+
+/*Purple border for the cards in the Civil Service Exams page*/
+#sectionCard.card-purple-border {
+  border: 3px solid rgba(165, 0, 220, 0.4);
+}
 
 /*Schedule table styles*/
 .schedule-table {
@@ -119,12 +139,15 @@ h2{
   color: #f5f5f5;
   border-radius: 12px;
   overflow: hidden;
+  border: 1px solid #a500dc;
 }
 
 .schedule-table th {
-  background-color: #2c2c2c;
+  background-color: #a500dc;
+  color: #fff;
   padding: 12px;
   text-transform: uppercase;
+  font-family: 'Cinzel', serif;
   font-size: 0.9rem;
   letter-spacing: 1px;
   text-align: center;
@@ -133,6 +156,7 @@ h2{
 .schedule-table td {
   padding: 12px;
   text-align: center;
+  border-bottom: 1px solid #2c2c2c;
 }
 
 .schedule-table tr:nth-child(even) {
@@ -140,14 +164,26 @@ h2{
 }
 
 .schedule-table tr:hover {
-  background-color: #333;
+  background-color: #2c2c2c;
   transition: 0.2s ease;
 }
 
 .schedule-table td:first-child {
   font-weight: bold;
-  color: rgb(193, 3, 193);
+  color: #a500dc;
+  font-family: 'Cinzel', serif;
 }
+
+.schedule-table tr:last-child td {
+  font-size: 0.85rem;
+  font-family: 'arial', sans-serif;
+  color: #aaa;
+  text-align: left;
+  padding-top: 16px;
+  border-bottom: none;
+}
+
+
 
 /*Subject group style*/
 .subjects-columns {
@@ -185,31 +221,59 @@ h2{
   letter-spacing: 1px;
 }
 
+/*Forms styles*/
+
+.container .form-control,
+.container .form-control:focus,
+.container .form-control:active {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  border: 3px solid rgba(165, 0, 220, 0.4);
+  box-shadow: none;
+}
+
 /* Responsive: the image height is lower for the phone */
 @media (max-width: 768px) {
   .card img {
     height: 220px;
   }
+  .subjects-columns {
+    column-count: 1;
+  }
+  .schedule-table {
+    display: block;
+    overflow-x: auto;
+  }
+    .banner {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    }
 }
 
 /*So that the footer is always down, even if the content is not enough to fill the screen*/
 footer{
   bottom: 0;
   width:100%;
-  height:60px;
 }
 
 /*Nav styles when the mouse is on the link*/
 
-#mainNav a:hover,
-#mainNav a:active {
+#mainNav a:hover{
   color: #a500dc;  
 }
 
-#continue-reading-button, #submit-login-button, #submit-signup-button {
+/*Dark button style for dark sections*/
+ .btn.btn-dark {
   background-color: #50016a;
-  color:rgb(211, 211, 211);
+  color: rgb(211, 211, 211);
 }
+.btn.btn-banner{
+  background-color: black;
+  color: rgb(220, 220, 220);
+}
+
+
 
 #email-link{
   color: #a500dc;

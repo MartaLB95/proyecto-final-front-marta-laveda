@@ -29,7 +29,7 @@ export default function LogInForm() {
     }
   };
   return (
-    <div>
+  <div>
       {!user ? (
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
@@ -52,14 +52,14 @@ export default function LogInForm() {
             </label>
             <input
               type="password"
-              class="form-control"
+              className="form-control"
               id="exampleInputPassword1"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
             />
           </div>
-          <button type="submit" class="btn btn-dark" id="submit-login-button">
+          <button type="submit" className="btn btn-dark" id="submit-login-button">
             Submit
           </button>
           {status && <p>{status}</p>}

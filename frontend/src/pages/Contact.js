@@ -32,7 +32,7 @@ export default function Contact() {
         </p>
         <p>Phone: +44 20 7946 0958</p>
     </div>
-    <div>
+    <div container className="mt-5">
         <h2>Contact Form</h2>
         <ContactForm />
     </div>

@@ -17,35 +17,40 @@ export default function InternationalMobility() {
                 imageSource={EdimburghImage}
                 imageDescription="Edimburgh picture by Alex Azabache"
                 title="Horror University of Edimburgh"
-                text="Located in Scotland, this university will allow you to gain a deeper understanding of the history of ghosts and spirits, as well as practical experience in haunting techniques."
+                text="Located in Scotland, this university offers a deeper understanding of ghost history and spirits, with practical experience in haunting techniques and poltergeist management."
+                buttonText="Contact Us"
                 link="/contact"
               />
               <SectionCard
                 imageSource={ParisImage}
                 imageDescription="Louvre picture by Michael Fousert"
                 title="Université Paris Terreur XIII"
-                text="The perfect place to study the history and culture of French monsters, as well as their impact on society."
+                text="The perfect place to study the history and culture of French monsters, their impact on society, and the dark arts of Parisian curse-weaving."
+                buttonText="Contact Us"
                 link="/contact"
               />
               <SectionCard
                 imageSource={RomeImage}
                 imageDescription="Roman building picture by Chad Greiter"
                 title="Academia degli Studi Spaventosi di Roma"
-                text="Join this Italian institution for a year and specialize in mythological creature studies or spell casting in Latin."
+                text="Join this Italian institution for a year and specialize in mythological creature studies, ancient spell casting in Latin, and the lost rituals of the Roman underworld."
+                buttonText="Contact Us"
                 link="/contact"
               />
               <SectionCard
                 imageSource={LaplandImage}
                 imageDescription="Lapland sky picture by Luna Pisani"
                 title="Dark Arts Academy of Lapland"
-                text="Why Lapland? Perfect destination for vampires running away from the sun! But more importantly, get to know the team that, every year, is able to stop Santa from delivering presents to all the well-behaved children."
+                text="The perfect destination for vampires fleeing the sun. Join the legendary team that, every year, ensures Santa never delivers presents to well-behaved children worldwide."
+                buttonText="Contact Us"
                 link="/contact"
               />
               <SectionCard
                 imageSource={SalemImage}
                 imageDescription="Witch picture by Eric Mclean"
                 title="Salem School of the Supernatural"
-                text="Located in Massachusetts, this school offers a unique opportunity to study witchcraft and other supernatural phenomena in a historical context."
+                text="Located in Massachusetts, this school offers a unique opportunity to study witchcraft and supernatural phenomena, rooted in one of history's most infamous dark legacies."
+                buttonText="Contact Us"
                 link="/contact"
               />
     </div>
