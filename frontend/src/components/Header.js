@@ -28,7 +28,8 @@ export default function Header() {
     navigate("/login");
   };
 
-  const isActive = (path) => location.pathname === path ? "nav-link active" : "nav-link";
+  const isActive = (path) =>
+    location.pathname === path ? "nav-link active" : "nav-link";
 
   return (
     <nav
@@ -38,7 +39,12 @@ export default function Header() {
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="./">
-          <img src={logo} alt="Logo Screamford Academy" width="50" height="50" />
+          <img
+            src={logo}
+            alt="Logo Screamford Academy"
+            width="50"
+            height="50"
+          />
         </a>
 
         <button
@@ -56,36 +62,64 @@ export default function Header() {
         <div className="collapse navbar-collapse" id="navbarContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className={isActive("/")} href="./">Home</a>
+              <a className={isActive("/")} href="./">
+                Home
+              </a>
             </li>
             <li className="nav-item">
-              <a className={isActive("/Methodology")} href="./Methodology">Methodology</a>
+              <a className={isActive("/Methodology")} href="./Methodology">
+                Methodology
+              </a>
             </li>
             <li className="nav-item">
-              <a className={isActive("/CivilServiceExams")} href="./CivilServiceExams">Civil Service Exams</a>
+              <a
+                className={isActive("/CivilServiceExams")}
+                href="./CivilServiceExams"
+              >
+                Civil Service Exams
+              </a>
             </li>
             <li className="nav-item">
-              <a className={isActive("/Subjects")} href="./Subjects">Subjects</a>
+              <a className={isActive("/Subjects")} href="./Subjects">
+                Subjects
+              </a>
             </li>
             <li className="nav-item">
-              <a className={isActive("/InternationalMobility")} href="./InternationalMobility">International Mobility</a>
+              <a
+                className={isActive("/InternationalMobility")}
+                href="./InternationalMobility"
+              >
+                International Mobility
+              </a>
             </li>
             <li className="nav-item">
-              <a className={isActive("/Contact")} href="./Contact">Contact Us</a>
+              <a className={isActive("/Contact")} href="./Contact">
+                Contact Us
+              </a>
             </li>
             <li className="nav-item">
-              <a className={isActive("/SignUp")} href="./SignUp">Sign Up</a>
+              <a className={isActive("/SignUp")} href="./SignUp">
+                Sign Up
+              </a>
             </li>
             <li className="nav-item">
               {user ? (
-                <a className="nav-link" href="#" onClick={handleLogout}>Logout</a>
+                <a className="nav-link" href="#" onClick={handleLogout}>
+                  Logout
+                </a>
               ) : (
-                <a className={isActive("/LogIn")} href="./LogIn">Log In</a>
+                <a className={isActive("/LogIn")} href="./LogIn">
+                  Log In
+                </a>
               )}
             </li>
           </ul>
           <div className="navbar-user">
-            {user && <span className="welcome-span">Welcome, {user.villainName || user.name}</span>}
+            {user && (
+              <span className="welcome-span">
+                Welcome, {user.villainName || user.name}
+              </span>
+            )}
           </div>
         </div>
       </div>

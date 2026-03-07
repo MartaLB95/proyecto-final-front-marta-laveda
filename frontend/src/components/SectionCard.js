@@ -1,4 +1,4 @@
-import Button from './Button'
+import Button from "./Button";
 export default function SectionCard({
   title,
   text,
@@ -6,25 +6,32 @@ export default function SectionCard({
   imageSource,
   imageDescription,
   horizontal = false,
-  hideButton=false,
+  hideButton = false,
   buttonText,
-  className=""
+  className = "",
 }) {
   return (
-      <div  className={`card mb-3 ${horizontal ? "flex-row" : ""} ${className}`}
-      style={{ width: horizontal ? "100%" : "18rem" }} id="sectionCard">
-       {imageSource && !horizontal && (
-            <img
-              src={imageSource}
-              className="img-fluid rounded-start"
-              alt={imageDescription}
-            />
-  )}
-            <div className="card-body d-flex flex-column">
-              <h5 className="card-title">{title}</h5>
-              <p className="card-text">{text}</p>
-              {!hideButton && <div className="mt-auto"><Button buttonText={buttonText} link={link} /></div>}
-              </div>
-            </div>
+    <div
+      className={`card mb-3 ${horizontal ? "flex-row" : ""} ${className}`}
+      style={{ width: horizontal ? "100%" : "18rem" }}
+      id="sectionCard"
+    >
+      {imageSource && !horizontal && (
+        <img
+          src={imageSource}
+          className="img-fluid rounded-start"
+          alt={imageDescription}
+        />
+      )}
+      <div className="card-body d-flex flex-column">
+        <h5 className="card-title">{title}</h5>
+        <p className="card-text">{text}</p>
+        {!hideButton && (
+          <div className="mt-auto">
+            <Button buttonText={buttonText} link={link} />
+          </div>
+        )}
+      </div>
+    </div>
   );
 }

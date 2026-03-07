@@ -29,7 +29,7 @@ export default function LogInForm() {
     }
   };
   return (
-  <div>
+    <div>
       {!user ? (
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
@@ -59,7 +59,11 @@ export default function LogInForm() {
               required
             />
           </div>
-          <button type="submit" className="btn btn-dark" id="submit-login-button">
+          <button
+            type="submit"
+            className="btn btn-dark"
+            id="submit-login-button"
+          >
             Submit
           </button>
           {status && <p>{status}</p>}

@@ -17,16 +17,20 @@ export default function ContactForm() {
       .then(
         () => {
           console.log("SUCCESS!");
-          setStatus("Message sent successfully. Our dark team will get back to you as soon as possible.");
+          setStatus(
+            "Message sent successfully. Our dark team will get back to you as soon as possible.",
+          );
         },
         (error) => {
           console.log("FAILED...", error.text);
-          setStatus("Error sending message. You need to scream louder. Please try again.");
+          setStatus(
+            "Error sending message. You need to scream louder. Please try again.",
+          );
         },
       );
   };
   return (
-//Here we use name instead of id to target the inputs because emailjs uses the name attribute to collect the data from the form
+    //Here we use name instead of id to target the inputs because emailjs uses the name attribute to collect the data from the form
     <form ref={form} onSubmit={sendEmail}>
       <div className="mb-3">
         <label htmlFor="name" className="form-label">

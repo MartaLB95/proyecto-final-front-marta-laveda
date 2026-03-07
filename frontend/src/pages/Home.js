@@ -45,7 +45,7 @@ export default function Home() {
           buttonText="Learn More"
           link="/civilserviceexams"
         />
-            <SectionCard
+        <SectionCard
           imageSource={internationalImage}
           imageDescription="Map by Jakob Braun"
           title="International Mobility"

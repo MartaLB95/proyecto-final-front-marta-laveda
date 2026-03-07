@@ -18,25 +18,31 @@ import SignUp from "./pages/SignUp.js";
 export default function App() {
   return (
     <BrowserRouter>
-    <div className="app-container">
-      <Header />
-      <main className="main-content">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/subjects" element={<Subjects />} />
-        <Route path="/methodology" element={<Methodology />} />
-        <Route path="/civilserviceexams" element={<CivilServiceExams />} />
-        <Route path="/internationalmobility" element={<InternationalMobility />} />
-        <Route path="/cookiespolicy" element={<CookiesPolicy />} />
-        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
-        <Route path="/termsandconditions" element={<TermsAndConditions />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/login" element={<LogIn />} />
-        <Route path="/signup" element={<SignUp />} />
-      </Routes>
-      </main> 
-      <Footer />
-    </div>
+      <div className="app-container">
+        <Header />
+        <main className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/subjects" element={<Subjects />} />
+            <Route path="/methodology" element={<Methodology />} />
+            <Route path="/civilserviceexams" element={<CivilServiceExams />} />
+            <Route
+              path="/internationalmobility"
+              element={<InternationalMobility />}
+            />
+            <Route path="/cookiespolicy" element={<CookiesPolicy />} />
+            <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+            <Route
+              path="/termsandconditions"
+              element={<TermsAndConditions />}
+            />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/login" element={<LogIn />} />
+            <Route path="/signup" element={<SignUp />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }
