@@ -14,7 +14,7 @@ export default function SignUpForm() {
       return; // stops the function if passwords don't match
     }
     try {
-      const res = await fetch("http://localhost:3001/api/signup", {
+      const res = await fetch("proyecto-final-front-marta-laveda-production.up.railway.app/api/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, password, villainName }),
