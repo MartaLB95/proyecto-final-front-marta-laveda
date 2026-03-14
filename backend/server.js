@@ -6,7 +6,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use(cors({
-  origin: 'https://screamfordacademy.online'
+  origin: 'https://www.screamfordacademy.online'
 }));
 
 const PORT = process.env.PORT || 3001;
