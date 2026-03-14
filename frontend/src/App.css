@@ -235,7 +235,7 @@ h2{
 /* Responsive: the image height is lower for the phone */
 @media (max-width: 768px) {
   .card img {
-    height: 280px;
+    height: 300px;
   }
   .subjects-columns {
     column-count: 1;
