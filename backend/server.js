@@ -5,8 +5,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const authRoutes = require("./routes/auth");
-app.use("/api", authRoutes);
+app.use(cors({
+  origin: 'https://screamfordacademy.online'
+}));
 
 const PORT = process.env.PORT || 3001;
 
